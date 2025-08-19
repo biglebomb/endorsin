@@ -18,6 +18,10 @@ export default defineNuxtConfig({
   build: {
     transpile: ["vuetify"]
   },
+    nitro: {
+    preset: "vercel-edge"
+  },
+
 
   // Public runtime configuration exposes the Supabase URL and anon
   // key to the client. These values are populated from the
